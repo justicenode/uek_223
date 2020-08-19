@@ -1,0 +1,12 @@
+#!/bin/bash
+
+genpdf () {
+	pandoc $1.md \
+        -f markdown \
+        -o $1.pdf \
+        -N -H /home/carlo/Documents/templates/default.tex \
+        -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm"
+}
+
+genpdf "./LE01/LE01_Einführung_und_Überblick"
+genpdf "./LE02/LE02_Software_Engineering_Prozesse"
