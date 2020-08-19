@@ -55,3 +55,4 @@ With the new online-auction module even small companies should be able to host t
 | Target audience | worldwide |
 | Sellers         | business  |
 | Buyers          | business  |
+
